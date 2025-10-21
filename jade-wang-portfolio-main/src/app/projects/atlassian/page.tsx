@@ -32,7 +32,7 @@ export default function AtlassianProjectPage() {
           </p>
           <div className="mt-6 flex flex-wrap gap-2 !text-sm">
             <span className="rounded-full border border-border px-3 py-1">Content Design</span>
-            <span className="rounded-full border border-border px-3 py-1 !whitespace-pre-line">Agentic  AI</span>
+            <span className="rounded-full border border-border px-3 py-1 !whitespace-pre-line">Agentic test AI</span>
             <span className="rounded-full border border-border px-3 py-1 !whitespace-pre-line">Design System Management</span>
           </div>
         </div>
