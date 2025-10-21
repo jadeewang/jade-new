@@ -308,9 +308,10 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="border-t border-border">
-        <div className="max-w-6xl mx-auto px-6 py-8 text-sm text-muted-foreground flex items-center justify-between">
+        <div className="max-w-6xl mx-auto px-6 py-8 text-sm text-muted-foreground grid grid-cols-3 items-center">
           <span>© {new Date().getFullYear()} Jade Wang</span>
-          <a href="#home" className="inline-flex items-center gap-1 rounded px-2 py-1 transition hover:bg-[#F2FCE2]">Back to top <ArrowRight className="size-3 rotate-180" /></a>
+          <span className="text-center">Built with Next.js</span>
+          <a href="#home" className="inline-flex items-center gap-1 rounded px-2 py-1 transition hover:bg-[#F2FCE2] justify-self-end">Back to top <ArrowRight className="size-3 rotate-180" /></a>
         </div>
       </footer>
     </div>);
