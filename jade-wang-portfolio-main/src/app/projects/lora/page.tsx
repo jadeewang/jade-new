@@ -53,7 +53,7 @@ export default function LoraProjectPage() {
             </div>
             <div className="col-span-2 md:col-span-1 min-w-0">
               <span className="block text-xs uppercase tracking-wide text-muted-foreground">Skills / Tools</span>
-              <p className="mt-1 text-foreground md:line-clamp-2 !whitespace-pre-line">Data collection, prompt design/engineering, LoRA tuning, bias analysis; SDXL, Flux, DALLE, LoRA, Python, Jupyter, Git.</p>
+              <p className="mt-1 text-foreground md:line-clamp-2 !whitespace-pre-line">Data collection, prompt design/engineering, LoRA tuning, bias analysis; SDXL/Flux, DALLE, Python, Jupyter, Git.</p>
             </div>
           </div>
 
@@ -61,7 +61,6 @@ export default function LoraProjectPage() {
             {/* Hero media (below meta row) */}
             <div className="relative w-full mx-auto overflow-hidden rounded-2xl border border-border shadow-sm md:shadow" style={{ maxHeight: "60vh" }}>
               <div className="aspect-[16/9] flex items-center justify-center text-sm text-muted-foreground !w-[99.9%] !h-[544px] !bg-[url(https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/2751f244-f34d-4be9-8032-7aab6d8b7a56/visual-edit-uploads/1758509056175-p0246gh9qj.png)] !bg-cover !bg-center">
-                Hero image placeholder — upload your image here
               </div>
             </div>
 
